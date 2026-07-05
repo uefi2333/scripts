@@ -1,6 +1,6 @@
 #!/bin/bash
 # ================================================================
-# Microsoft 365 Refresh Token 获取工具
+# M365 Copilot Refresh Token 获取工具
 # 使用 Device Code Flow（设备码流）
 # 兼容 Linux / macOS / Android Termux
 # 无需账密输入，无需浏览器自动化
@@ -10,7 +10,7 @@ set -e
 RED='\e[0;31m'; GREEN='\e[0;32m'; YELLOW='\e[1;33m'; CYAN='\e[0;36m'; NC='\e[0m'
 
 echo -e "${CYAN}╔══════════════════════════════════════════╗${NC}"
-echo -e "${CYAN}║   Microsoft 365 Token 获取工具          ║${NC}"
+echo -e "${CYAN}║   M365 Copilot Token 获取工具          ║${NC}"
 echo -e "${CYAN}║   Device Code Flow · 无需密码           ║${NC}"
 echo -e "${CYAN}╚══════════════════════════════════════════╝${NC}"
 echo
@@ -27,8 +27,8 @@ done
 # Teams Web: 1fec8e78-bce4-4aaf-ab1b-5451cc387264
 # Office 365: d3590ed6-52b3-4102-aeff-aad2292ab01c
 # Microsoft Graph: 无特定客户端，用通用入口
-CLIENT_ID="d3590ed6-52b3-4102-aeff-aad2292ab01c"
-SCOPE="https://graph.microsoft.com/.default offline_access openid profile"
+CLIENT_ID="4765445b-32c6-49b0-83e6-1d93765276ca"
+SCOPE="https://substrate.office.com/sydney/.default openid profile offline_access"
 
 echo -e "${YELLOW}[1/3] 正在请求设备码...${NC}"
 
