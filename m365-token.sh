@@ -28,7 +28,7 @@ done
 # Office 365: d3590ed6-52b3-4102-aeff-aad2292ab01c
 # Microsoft Graph: 无特定客户端，用通用入口
 CLIENT_ID="d3590ed6-52b3-4102-aeff-aad2292ab01c"
-SCOPE="https://microsoft.com/.default offline_access openid profile"
+SCOPE="https://graph.microsoft.com/.default offline_access openid profile"
 
 echo -e "${YELLOW}[1/3] 正在请求设备码...${NC}"
 
